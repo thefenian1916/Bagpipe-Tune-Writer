@@ -1,0 +1,65 @@
+BAGPIPE TUNE WRITER
+===================
+
+A program for writing Great Highland Bagpipe sheet music.
+
+INSTALLING
+----------
+Nothing to install. Double-click BagpipeTuneWriter.exe to start it.
+You can keep it anywhere, such as your Desktop or Documents folder.
+
+Windows may show a blue box the first time: "Windows protected your PC".
+That's normal for small programs that aren't from a big software company.
+Click "More info" and then "Run anyway". You'll only see this once.
+
+The first start can take a few seconds while the program unpacks.
+
+USING IT
+--------
+* A blank 8-bar tune is ready when the program opens. Type the Title and
+  Composer at the top.
+* Click a note to select it. Use the Up/Down arrow keys (or drag the note)
+  to change its pitch, and the Left/Right arrow keys to move between notes.
+* The tabs above the staff are:
+    Duration       - quarter, 8th, 16th, dotted, cut notes, and ties
+    Note           - pick the pitch (Low G up to High A)
+    Embellishment  - gracenotes, doublings, throws, grips, birls,
+                     taorluaths, and more
+    Editing        - add or delete notes and bars, undo, copy/paste,
+                     repeats, 1st/2nd endings, and pickup bars
+* Press F1 or click "Help" at any time for the full quick guide.
+
+PLAYBACK
+--------
+* Click Play to hear the tune and Stop to end it. BPM sets the speed.
+* Tick "Metro" to play along with a metronome. The two sliders set the
+  metronome volume and the chanter volume.
+* Clicking a note plays that note.
+
+SAVING AND THE TUNES FOLDER
+---------------------------
+* Save (Ctrl+S) puts the tune in a folder called "Tunes" right next to
+  BagpipeTuneWriter.exe. The file is named after the tune's title. The
+  program makes the folder the first time you save.
+* Every saved tune shows up in the TUNES list on the left. Double-click
+  a tune to open it.
+* To keep your tunes, keep the Tunes folder with the program. You can
+  move both together to any folder you like.
+
+IMPORTING TUNES
+---------------
+* Drag tune files (.json, .pipetune or .bww) from File Explorer and drop
+  them anywhere on the program's window. You can drop a whole folder too.
+  Each tune is copied into the Tunes folder. A file with several tunes in
+  it is split into one file per tune.
+* You can also click "Import" under the tunes list, or use File > Import
+  Tunes... (Ctrl+I).
+* Tunes that are already in the Tunes folder aren't copied twice.
+
+OPENING, SHARING, AND PRINTING
+------------------------------
+* File > Open (Ctrl+O) opens a tune file from anywhere.
+* File > Save a Copy As... saves a copy somewhere else, for example to
+  email it. File > Export BWW... saves a Bagpipe Music Writer (.bww) file.
+* "PDF" saves printable sheet music. "Print" sends it to your printer.
+* If you close the program with unsaved changes, it asks if you want to save.
